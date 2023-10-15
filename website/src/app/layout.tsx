@@ -1,12 +1,16 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import ThemeProvider from './provider'
+import { Roboto } from 'next/font/google'
+ 
+const roboto = Roboto({
+  weight: '500',
+  subsets: ['latin'],
+})
 
 export const metadata: Metadata = {
-  title: 'FH.Dev - CV',
-  description: 'CV created using Next.js',
+  title: 'FH.Dev',
+  description: 'FH.Dev website created using Next.js',
 }
 
 export default function RootLayout({
@@ -16,7 +20,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={roboto.className}>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem >   
+        {children}
+        </ThemeProvider>
+      </body>
     </html>
   )
 }
