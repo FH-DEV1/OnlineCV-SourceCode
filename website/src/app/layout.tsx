@@ -1,12 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import ThemeProvider from './provider'
-import { Roboto } from 'next/font/google'
- 
-const roboto = Roboto({
-  weight: '500',
-  subsets: ['latin'],
-})
+import Navbar from "./components/Navbar"
 
 export const metadata: Metadata = {
   title: 'FH.Dev',
@@ -20,9 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={roboto.className}>
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem >   
-        {children}
+      <body className="flex min-h-screen flex-col p-4 pt-5 bg-gradient-to-t from-slate-400 to-slate-50 dark:from-gray-950 dark:to-gray-900">
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem >
+          <Navbar />
+          {children}
         </ThemeProvider>
       </body>
     </html>
