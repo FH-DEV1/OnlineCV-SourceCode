@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="flex min-h-screen flex-col p-4 pt-5 bg-gradient-to-t from-slate-400 to-slate-50 dark:from-gray-950 dark:to-gray-900">
+      <body className="flex min-h-screen flex-col p-4 pt-5 bg-gradient-to-t from-slate-300 to-slate-50 dark:from-gray-950 dark:to-gray-900">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem >
           <Navbar />
           {children}
