@@ -1,10 +1,11 @@
 "use client"
 
-const Home: React.FC = () => {
+const Projects: React.FC = () => {
     return (
         <div className="">
+            Project
         </div>
     )
 };
 
-export default Home;
+export default Projects;
