@@ -17,13 +17,13 @@ const Navbar: React.FC = () => {
     return (
         <div className="flex flex-row border-slate-300 dark:border-gray-700 border-b pb-3">
             <div className="md:flex hidden flex-grow flex-1 pl-2">
-                <TabLink href={"/"} title={"Home"} />
                 <TabLink href={"/about"} title={"About"} />
                 <TabLink href={"/projects"} title={"Projects"} />
+                <TabLink href={"/socials"} title={"Socials"} />
             </div>
-            <div className="flex flex-1 flex-grow pl-2 md:pl-0 md:justify-center">
+            <Link href={"/"} className="flex flex-1 flex-grow pl-2 md:pl-0 md:justify-center">
                 <h1 className="text-slate-900 dark:text-slate-200 font-bold text-3xl">FH.Dev</h1>
-            </div>
+            </Link>
             <div className="md:flex flex-1 justify-end flex-grow pr-2 hidden">
                 <ThemeSwitch />
             </div>
