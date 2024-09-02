@@ -8,7 +8,7 @@ const Home: React.FC = () => {
     return (
         <div className="flex flex-1 flex-grow justify-center items-center flex-col">
             <div>
-                <h1 className="ml-5 text-3xl font-bold pb-2 text-slate-900 dark:text-slate-200">Hey I'm FH.dev</h1>
+                <h1 className="ml-5 text-3xl font-bold pb-2 text-slate-900 dark:text-slate-200 -mt-7">Hey I'm FH.dev</h1>
                 <div className="ml-5 flex flex-row h-9 overflow-hidden">
                     <h1 className="text-2xl font-thin text-slate-900 dark:text-slate-200">I'm comfortable with </h1>
                     <div className="flex flex-col">
