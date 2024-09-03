@@ -20,7 +20,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem >
           <Navbar />
           {children}
-          <Link href="mailto:FHDEV@proton.me?subject=Job offer" className="cursor-pointer absolute left-[8svw] bottom-[8svw] md:left-[3svw] md:bottom-[3svw] backdrop-blur-md dark:bg-opacity-20 bg-opacity-20 bg-gray-300 dark:bg-gray-400 w-20 h-8 flex justify-center items-center border border-emerald-500 rounded-md">
+          <Link href="mailto:FHDEV@proton.me?subject=Job offer" className="cursor-pointer fixed left-[8svw] bottom-[8svw] md:left-[3svw] md:bottom-[3svw] backdrop-blur-md dark:bg-opacity-20 bg-opacity-20 bg-gray-300 dark:bg-gray-400 w-20 h-8 flex justify-center items-center border border-emerald-500 rounded-md">
               <span className="absolute -right-1 -top-1 flex h-3 w-3">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
