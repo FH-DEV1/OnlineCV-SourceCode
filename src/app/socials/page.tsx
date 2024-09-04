@@ -7,7 +7,6 @@ const About: React.FC = () => {
     const [isShowing, setIsShowing] = useState(false);
 
     useEffect(() => {
-        // Set to true to trigger the animation when the component mounts
         setIsShowing(true);
     }, []);
 
