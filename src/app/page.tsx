@@ -71,7 +71,7 @@ const Home: React.FC = () => {
                         </p>
                     </Link>
                     <Link
-                    href="/about"
+                    href="/socials"
                     className="text-slate-900 dark:text-slate-200 group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-300/50 hover:dark:border-slate-700 hover:dark:bg-slate-800/30"
                     >   
                         <div className="flex">

@@ -33,7 +33,7 @@ const About: React.FC = () => {
                     src="/BeFake.png"
                     width={2000}
                     height={1361}
-                    alt="img1"
+                    alt="Befake illustration image"
                     className="object-bottom w-full h-[73.5%] rounded-t-xl md:rounded-b-xl rounded-b-none md:group-hover:rounded-b-none object-cover"
                 />
                 <FaStar className="text-yellow-500 text-2xl absolute top-3 right-3" />
@@ -48,7 +48,7 @@ const About: React.FC = () => {
                 src="/Minestrator.png"
                 width={3126}
                 height={1042}
-                alt="img1"
+                alt="minestrator illustration image"
                 className="object-bottom w-full h-[73.5%] rounded-t-xl md:rounded-b-xl rounded-b-none md:group-hover:rounded-b-none object-cover" 
                 />
                 <h2 className="mt-2 mx-2 text-2xl font-semibold">Minestrator - SFTP Daily Backup BOT</h2>
@@ -61,7 +61,7 @@ const About: React.FC = () => {
                 src="/Minestrator.png"
                 width={3126}
                 height={1042}
-                alt="img1"
+                alt="minestrator illustration image"
                 className="object-bottom w-full h-[73.5%] rounded-t-xl md:rounded-b-xl rounded-b-none md:group-hover:rounded-b-none object-cover" 
                 />
                 <h2 className="mt-2 mx-2 text-2xl font-semibold">Minestrator - AirDrop BOT</h2>
@@ -77,7 +77,7 @@ const About: React.FC = () => {
                     src="/facebook.jpg"
                     width={600}
                     height={390}
-                    alt="img1"
+                    alt="facebook illustration image"
                     className="object-bottom w-full h-[73.5%] rounded-t-xl md:rounded-b-xl rounded-b-none md:group-hover:rounded-b-none object-cover" 
                 />
                 <h2 className="mt-2 mx-2 text-2xl font-semibold">Facebook - OSINT Tool</h2>
