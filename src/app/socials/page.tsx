@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-const About: React.FC = () => {
+const Socials: React.FC = () => {
     const [isShowing, setIsShowing] = useState(false);
 
     useEffect(() => {
@@ -79,4 +79,4 @@ const About: React.FC = () => {
     );
 };
 
-export default About;
+export default Socials;
