@@ -10,6 +10,10 @@ const config: Config = {
   theme: {
     extend: {
       keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0', transform: 'translateY(25px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
         spin_words: {
           '6%': { transform: 'translateY(-112%)' },
           '16%': { transform: 'translateY(-100%)' },
@@ -26,6 +30,7 @@ const config: Config = {
         },
       },
       animation: {
+        'fadeIn': 'fadeIn 0.5s ease-in-out',
         'spin-words': 'spin_words 20s infinite',
       },
     },
