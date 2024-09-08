@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Personal CV - Next.js, Tailwind CSS, and TypeScript
 
-## Getting Started
+This is a personal CV website built using **Next.js**, **Tailwind CSS**, and **TypeScript**. The site showcases my professional experience, skills, and projects in a clean and responsive design. The CV is deployed and available at [fhdev.vercel.app](https://fhdev.vercel.app).
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js Framework**: Provides a fast, scalable, and SEO-friendly platform for the CV.
+- **Tailwind CSS**: Custom styling using utility-first CSS for responsive and modern design.
+- **TypeScript**: Ensures type safety and improves the reliability of the codebase.
+- **Responsive Design**: Fully responsive, making it accessible on both desktop and mobile devices.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How to Use
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/cv-nextjs-tailwind.git
+   cd cv-nextjs-tailwind
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+   Open [http://localhost:3000](http://localhost:3000) in your browser to see the CV locally.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. To build for production:
+   ```bash
+   npm run build
+   npm run start
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Project Structure
 
-## Deploy on Vercel
+- **pages/**: Contains the main pages of the CV site.
+- **components/**: Reusable React components for different sections (e.g., header, footer, experience).
+- **styles/**: Custom styling using Tailwind CSS.
+- **public/**: Static assets like images.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Technologies Used
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Next.js**: React framework for building server-rendered and static web applications.
+- **Tailwind CSS**: Utility-first CSS framework for fast UI development.
+- **TypeScript**: Enhances JavaScript with strong typing, improving code quality and maintenance.
+
+## Customization
+
+You can easily customize the content by editing the files in the `pages/` and `components/` directories. Tailwind classes can be adjusted in the JSX for modifying the styling.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Live Demo
+
+Check out the live version at: [fhdev.vercel.app](https://fhdev.vercel.app)
