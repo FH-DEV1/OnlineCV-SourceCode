@@ -16,9 +16,16 @@ const Projects: React.FC = () => {
             href: "https://github.com/FH-DEV1/BeFake",
             imageSrc: "/BeFake.png",
             alt: "Befake illustration image",
-            title: "Befake",
+            title: "BeReal. - Befake",
             description: "A third-party client for BeReal app which allows you to view others bereal without posting.",
             star: true,
+        },
+        {
+            href: "https://github.com/FH-DEV1/OnlineCV-SourceCode",
+            imageSrc: "/cv.png",
+            alt: "CV image",
+            title: "FH.Dev - Personal CV",
+            description: "This is a personal CV website built using Next.js, Tailwind CSS, and TypeScript.",
         },
         {
             href: "https://github.com/FH-DEV1/Daily-SFTP-server-backup",
@@ -26,7 +33,6 @@ const Projects: React.FC = () => {
             alt: "Minestrator illustration image",
             title: "Minestrator - SFTP Daily Backup BOT",
             description: "A BOT that downloads the full server using SFTP and sends it by mail compressed in a .zip.",
-            star: false,
         },
         {
             href: "https://github.com/FH-DEV1/minestrator-airdrop-bot",
@@ -34,7 +40,6 @@ const Projects: React.FC = () => {
             alt: "Minestrator illustration image",
             title: "Minestrator - AirDrop BOT",
             description: "A BOT that wins every AirDrop without any user interaction.",
-            star: false,
         },
         {
             href: "https://github.com/FH-DEV1/Facebook-OSINT",
@@ -43,6 +48,20 @@ const Projects: React.FC = () => {
             title: "Facebook - OSINT Tool",
             description: "A python program that could create a db full of phone numbers linked with usernames using bruteforce ⚠️deprecated⚠️.",
             deprecated: true,
+        },
+        {
+            href: "https://github.com/FH-DEV1/Vinted-Hunter-Bot",
+            imageSrc: "/vinted.webp",
+            alt: "vintedpy image",
+            title: "Vinted - Hunter Bot",
+            description: "A Discord bot that monitors Vinted searches and sends real-time alerts to dedicated discord channels.",
+        },
+        {
+            href: "https://github.com/FH-DEV1/Facebook-OSINT",
+            imageSrc: "/python.jpeg",
+            alt: "Python CheatSheet image",
+            title: "Python - CheatSheet",
+            description: "A Python cheat sheet created using HTML, CSS, and JavaScript for a school homework project.",
         }
     ];
 

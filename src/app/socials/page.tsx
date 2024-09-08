@@ -11,7 +11,7 @@ const Socials: React.FC = () => {
     }, []);
 
     return (
-        <div className="flex flex-1 flex-grow justify-center items-center flex-col gap-4 text-slate-900 dark:text-slate-200">
+        <div className="flex flex-1 flex-grow flex-col gap-4 text-slate-900 dark:text-slate-200 mt-20">
             <div className={`w-full flex justify-center transition transform duration-1000 ${isShowing ? 'opacity-100 translate-y-0 delay-[200ms]' : 'opacity-0 translate-y-10'}`}>
                 <Link href="https://github.com/FH-DEV1" target="_blank" rel="noopener noreferrer" className="flex items-center transition-colors bg-gray-300/50 dark:bg-slate-800/30 h-20 w-11/12 max-w-96 p-2 rounded-xl border border-transparent hover:border-gray-300 hover:dark:border-slate-700">
                     <Image
